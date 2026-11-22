@@ -1,0 +1,45 @@
+{
+  "model": "LogReg",
+  "scenario": "without_work_interfere",
+  "features": [
+    "age",
+    "gender",
+    "country",
+    "self_employed",
+    "family_history",
+    "no_employees",
+    "remote_work",
+    "tech_company",
+    "benefits",
+    "care_options",
+    "wellness_program",
+    "seek_help",
+    "anonymity",
+    "leave",
+    "mental_health_consequence",
+    "phys_health_consequence",
+    "coworkers",
+    "supervisor",
+    "mental_health_interview",
+    "phys_health_interview",
+    "mental_vs_physical",
+    "obs_consequence"
+  ],
+  "target": "treatment",
+  "positive_class": "Yes",
+  "best_params": {
+    "model__C": 0.31489116479568624,
+    "model__penalty": "l1",
+    "model__solver": "liblinear"
+  },
+  "probability_threshold": 0.42500000000000004,
+  "test_auc": 0.7653604257377842,
+  "test_auc_ci95": [
+    0.7095394736842104,
+    0.814653920173447
+  ],
+  "test_accuracy": 0.7238095238095238,
+  "test_f1": 0.7463556851311953,
+  "random_state": 42,
+  "test_size": 0.25
+}

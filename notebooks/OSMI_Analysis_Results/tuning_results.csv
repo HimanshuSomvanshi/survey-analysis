@@ -1,0 +1,6 @@
+Model,Tuned CV AUC,Best parameters
+ExtraTrees,0.7804432749541435,"{'model__max_depth': 8, 'model__max_features': 'log2', 'model__min_samples_leaf': 1, 'model__min_samples_split': 13, 'model__n_estimators': 513}"
+RandomForest,0.7791578089441172,"{'model__max_depth': 10, 'model__max_features': 'sqrt', 'model__min_samples_leaf': 3, 'model__min_samples_split': 13, 'model__n_estimators': 559}"
+XGBoost,0.7779566531003784,"{'model__colsample_bytree': 0.7, 'model__learning_rate': np.float64(0.029385442161128397), 'model__max_depth': 3, 'model__min_child_weight': 9, 'model__n_estimators': 372, 'model__reg_alpha': np.float64(2.381510841430584), 'model__reg_lambda': np.float64(52.48888402320224), 'model__subsample': 0.85}"
+LogReg,0.7739630067791303,"{'model__C': np.float64(0.31489116479568624), 'model__penalty': 'l1', 'model__solver': 'liblinear'}"
+HistGB,0.7700823459644306,"{'model__l2_regularization': np.float64(10.431827200054899), 'model__learning_rate': np.float64(0.018861950443028862), 'model__max_depth': 3, 'model__max_iter': 430, 'model__max_leaf_nodes': 35}"
